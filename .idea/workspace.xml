@@ -4,10 +4,12 @@
     <list default="true" id="8ecc8d4f-bc40-4eae-afa0-016da4edab0d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/next.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vercel.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/api/company/getData.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/api/company/getData.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/company/[symbol]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/company/[symbol]/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/ui/COMPANY_ESSENTIALS.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/ui/PRICE.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/ui/PRICE_SUMMARY.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/uils/currencyFormat.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/uils/currencyFormat.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,12 +27,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

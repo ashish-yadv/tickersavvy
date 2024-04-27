@@ -1,0 +1,1 @@
+// NOTE: Write all utility functions that will be used for calculation of data.
