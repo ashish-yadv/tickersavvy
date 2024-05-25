@@ -335,7 +335,7 @@ const Page = ({ params }: { params: { symbol: string } }) => {
     // Manage state of "Company Cash Flow"
     const [companyCashflow, setCompanyCashflow] = useState<any>();
 
-    // Manage state of "Company Cash Flow"
+    // Manage state of "Company Earnings"
     const [companyEarnings, setCompanyEarnings] = useState<any>();
 
     // Manage state of "Company Financial Markets News and Sentiments"

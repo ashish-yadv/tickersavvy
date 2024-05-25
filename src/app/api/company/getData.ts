@@ -8,9 +8,9 @@ import axios, { AxiosResponse } from 'axios';
 export async function getCompanyOverview(symbol: string): Promise<any> {
     try {
         console.log("Data fetching in PROCESS!");
-        const response: AxiosResponse = await axios.get(`https://www.alphavantage.co/query?function=OVERVIEW&symbol=${symbol}&apikey=${process.env.ALPHA_VANTAGE_API_KEY}`);
+        // const response: AxiosResponse = await axios.get(`https://www.alphavantage.co/query?function=OVERVIEW&symbol=${symbol}&apikey=${process.env.ALPHA_VANTAGE_API_KEY}`);
 
-        // const response: AxiosResponse = await axios.get(`https://www.alphavantage.co/query?function=OVERVIEW&symbol=IBM&apikey=demo`);
+        const response: AxiosResponse = await axios.get(`https://www.alphavantage.co/query?function=OVERVIEW&symbol=IBM&apikey=demo`);
 
         console.log("Data fetching done");
         return response.data;
@@ -29,10 +29,10 @@ export async function getCompanyOverview(symbol: string): Promise<any> {
 export async function getIncomeStatement(symbol: string): Promise<any> {
     try {
         console.log("Fetching Income Statement!");
-        const response: AxiosResponse = await axios.get(`https://www.alphavantage.co/query?function=INCOME_STATEMENT&symbol=${symbol}&apikey=${process.env.ALPHA_VANTAGE_API_KEY}`);
+        // const response: AxiosResponse = await axios.get(`https://www.alphavantage.co/query?function=INCOME_STATEMENT&symbol=${symbol}&apikey=${process.env.ALPHA_VANTAGE_API_KEY}`);
 
 
-        // const response: AxiosResponse = await axios.get(`https://www.alphavantage.co/query?function=INCOME_STATEMENT&symbol=IBM&apikey=demo`);
+        const response: AxiosResponse = await axios.get(`https://www.alphavantage.co/query?function=INCOME_STATEMENT&symbol=IBM&apikey=demo`);
 
         console.log("Completed fetching Income Statement🎉");
 
@@ -54,9 +54,9 @@ export async function getIncomeStatement(symbol: string): Promise<any> {
 export async function getBalanceSheet(symbol: string): Promise<any> {
     try {
         console.log("Fetching BALANCE SHEET!");
-        const response: AxiosResponse = await axios.get(`https://www.alphavantage.co/query?function=BALANCE_SHEET&symbol=${symbol}&apikey=${process.env.ALPHA_VANTAGE_API_KEY}`);
+        // const response: AxiosResponse = await axios.get(`https://www.alphavantage.co/query?function=BALANCE_SHEET&symbol=${symbol}&apikey=${process.env.ALPHA_VANTAGE_API_KEY}`);
 
-        // const response: AxiosResponse = await axios.get(`https://www.alphavantage.co/query?function=BALANCE_SHEET&symbol=IBM&apikey=demo`);
+        const response: AxiosResponse = await axios.get(`https://www.alphavantage.co/query?function=BALANCE_SHEET&symbol=IBM&apikey=demo`);
 
         console.log("Completed fetching BALANCE SHEET🎉");
 
@@ -78,9 +78,9 @@ export async function getBalanceSheet(symbol: string): Promise<any> {
 export async function getCashFlow(symbol: string): Promise<any> {
     try {
         console.log("Fetching CASH FLOW DATA!");
-        const response: AxiosResponse = await axios.get(`https://www.alphavantage.co/query?function=CASH_FLOW&symbol=${symbol}&apikey=${process.env.ALPHA_VANTAGE_API_KEY}`);
+        // const response: AxiosResponse = await axios.get(`https://www.alphavantage.co/query?function=CASH_FLOW&symbol=${symbol}&apikey=${process.env.ALPHA_VANTAGE_API_KEY}`);
 
-        // const response: AxiosResponse = await axios.get(`https://www.alphavantage.co/query?function=CASH_FLOW&symbol=IBM&apikey=demo`);
+        const response: AxiosResponse = await axios.get(`https://www.alphavantage.co/query?function=CASH_FLOW&symbol=IBM&apikey=demo`);
 
         console.log("Completed fetching CASH FLOW DATA🎉");
 
